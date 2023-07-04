@@ -1,0 +1,94 @@
+body{
+    background-image: url(../images/secondary_background.jpg);
+    
+    background-repeat: no-repeat;
+     background-size: cover; 
+     width: 100%;
+    position: relative;
+    
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+    z-index: -1;
+    
+}
+.line{
+    width: 83px;
+    height: 2px;
+    
+    
+}
+
+
+.jobs{
+    
+    color: white;
+}
+.container{
+    z-index: 4;
+    font-size: 15px;
+}
+/* .btn_{
+    border-radius: 0;
+    width: 100px;
+    height: 40px;
+    
+    border: none;
+} */
+.form{
+    border: none;
+    background-color: rgba(26,25,25,0.9);
+    color: white;
+    width: 400px;
+
+    
+}
+.search_icons{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.container_job {
+    background-color: rgba(0,0,0,0.3);
+}
+.jobs_container{
+    background-color: rgba(0,0,0,1);
+    
+}
+/* .job_loc{
+    background-color: rgba(25,26,26,0.7);
+
+} */
+.content{
+    color: red;
+    font-size: 30px;
+}
+.content_it{
+    margin-left: -4px;
+    font-weight: bold;
+}
+.text{
+    font-size: 14px;
+}
+.location{
+    padding-bottom: 100px;
+}
+.job_loc .form-select,
+.job_loc .form-select:hover, 
+.job_loc .form-select:focus,
+.job_loc .form-select:active{
+border:0;
+outline:0;
+box-shadow:0;
+background-color:rgba(25,26,26,0.7);
+}
+.job_details input[type="checkbox"]:checked{background-color:#FFCA2C ;border-color: #FFCA2C;}
+.job_details input[type="checkbox"]{background-color: transparent;border:2px solid white}
+
